@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Plus+Jakarta+Sans:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+  </head>
+
+  <body id="bg">
+    <div class="search-container">
+      <input type="text" placeholder="Enter city name" id="city" />
+      <button id="submit">Search</button>
+      <h4 id="warning">Please enter a valid city name</h4>
+    </div>
+    <div class="box">
+      <div class="display">
+        <img src="sun.png" alt="" id="icon" />
+        <div class="top">
+          <h3 id="cityName">City Name</h3>
+          <h1 id="temp">Temperature</h1>
+        </div>
+      </div>
+      <div class="info">
+        <div class="wind">
+          <h4>Wind speed</h4>
+          <h3 id="wind_speed">Wind</h3>
+        </div>
+        <div class="humidity">
+          <h4>Humidity</h4>
+          <h3 id="humidity">Humidity</h3>
+        </div>
+        <div class="feels">
+          <h4>Feels like</h4>
+          <h3 id="feels_like">Feels like</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
